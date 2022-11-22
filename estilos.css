@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    border-bottom:solid ;
+    border-color: rgba(255, 255, 255, 0.456);
+}
+
+h3{
+    font-size: 45px;
+    padding-bottom: 2%;
+    border-bottom: solid;
+    border-color: rgba(255, 255, 255, 0.348);
+}
+
+h4{
+    font-size: 38px;
+}
+
+h5{
+    font-size:70px ;
+}
+
+p{
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(33, 33, 33);
+}
+
+nav{
+    background-color: rgb(46, 49, 51);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+header{
+    z-index: 1;
+}
+
+.nav,li{
+    font-size: 18px;
+    padding:1% 3%;
+}
+
+.nav,a:hover{
+    text-decoration: none;
+}
+
+.nav,li:hover{
+    background-color: rgb(227, 227, 227);
+    border-radius: 5%;
+    color:  rgb(98, 92, 107);
+}
+
+.img-fondo{
+    width: 100%;
+    height: 6000px;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.logo-nav{
+    max-width: 70px;
+}
+
+.texto-imagen-header{
+    margin-top: 13%;
+}
+
+.intro{
+    margin-top: 18%;
+    padding: 3% 0%;
+}
+
+.intro:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+
+
+
+.texto-intro{
+   border: solid;
+   border-color: rgba(255, 255, 255, 0.468);
+    border-radius: 3%;
+}
+
+.texto-intro-p{
+    font-size: 18px;
+}
+
+.servicios{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.cuadrante-servicios{
+    margin-top: 5%;
+}
+
+.borde-blanco{
+    border: solid;
+    border-color: rgba(240, 248, 255, 0.566);
+    padding:3% 5% 5% 8%;
+}
+
+.borde-blanco:hover{
+    background-color: rgba(70, 70, 70, 0.429);
+    transition-timing-function: linear;
+    transition-duration: 0.8;
+    transform: scale(1.2) ;
+}
+
+.verbo{
+    font-size: 15px;
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+
+.verbo1{
+    font-size: 20px;
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+
+.aplicaciones-logo{
+    margin-left: 50%;
+}
+
+.redes{
+    margin-left: 10%;
+}
+
+.forma-trabajo{
+    margin-bottom: 3%;
+}
+
+.linea-blanca-izquierda{
+    margin-top: 15%;
+
+}
+
+.texto-pasos{
+    margin-top: 8%;
+}
+
+.texto-pasos,p{
+    font-size: 29px;
+}
+
+.linea-blanca-derecha{
+    border-left: solid ;
+    border-color: white;
+
+}
+
+.texto-derecha{
+    margin-left: 25%;
+}
+
+.pasos{
+    margin-bottom: 12%;
+}
+
+
+
+.mision-vision{
+    font-size: 25px;
+    padding:10% 2% 25% 2%;
+    text-align: justify;
+}
+
+.imagen-fluida{
+    max-width: 300px;
+    min-height: 300px;
+    border-radius: 3%;
+    margin-left: 15%;
+}
+
+.carrusel{
+    margin-bottom: 15%;
+}
+
+.formulario{
+    margin-left: 30%;
+}
+
+label{
+    font-size: 23px;
+}
+
+.form-input{
+    background-color: rgba(115, 115, 116, 0.639);
+    border-radius: 3%;
+    border-color: rgba(255, 255, 255, 0.477);
+}
+
+.form-btn{
+    border-radius: 3%;
+    border-color: rgba(255, 255, 255, 0.232);
+    background-color: rgba(60, 105, 153, 0.724);
+
+    padding:0 36% 0 6%;
+    font-size: 25px;
+}
+
+.llamanos{
+    margin-top: 4%;
+}
+
+.correo{
+    font-size: 20px;
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+
+.correo:hover{
+    text-decoration: dotted;
+    color: blue;
+    cursor: pointer;
+}
+
+.contacto{
+    margin-bottom: 13%;
+}
+
+footer{
+    background-color: rgb(46, 49, 51);
+}
+
+.legasss{
+    color: rgb(109, 155, 39);
+
+}
+
+.legasss:hover{
+    color: greenyellow;
+}
+
+.list-footer-item:hover{
+    background-color: transparent;
+}
+
+.boton-subir{
+    position: sticky;
+    bottom: 30px;
+    margin-left: 90%;
+    padding: 1%;
+    border-radius: 80%;
+    max-width: 30px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.071);
+}
+
+.boton-subir:hover{
+    background-color: rgba(245, 245, 220, 0.717);
+}
+
+.icono{
+    width: 40px;
+}
+
+.enlace-casaXavier{
+    color: white;
+    border-color: rgba(255, 255, 255, 0.232);
+    background-color: rgba(60, 105, 153, 0.724);
+    margin-left: 50%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 3%;
+}
+
+.enlace-casaXavier:hover{
+    color: white;
+    background-color: rgba(60, 105, 153);
+}
